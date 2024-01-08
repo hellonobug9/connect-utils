@@ -37,3 +37,7 @@ export const GSConnectBoard = {
   tools: Object.values(Tools),
   colors: Object.values(Colors),
 };
+
+export const GSConnectBoardConfig = {
+  //
+};
