@@ -1,0 +1,17 @@
+# Ignore build artifacts
+build/
+dist/
+out/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore sensitive information
+config.ini
+secrets.txt
+node_modules/
