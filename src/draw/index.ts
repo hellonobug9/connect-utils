@@ -21,11 +21,11 @@ export enum Colors {
   Purple = "purple",
 }
 export enum BoardIngredients {
-  // background của canvas, là ảnh từ lesson plan
+  // Background của canvas, là ảnh lesson plan
   BoardBackgroundImage = "BoardBackgroundImage",
-  // hình vẽ đến từ curriculum
+  // Hình vẽ đến từ curriculum (target)
   StaticDrawing = "StaticDrawing",
-  // hình vẽ của teacher vẽ khi đang dạy học
+  // Hình vẽ của teacher vẽ khi đang dạy học
   DynamicDrawing = "DynamicDrawing",
 }
 export function getTool(toolName: string): Tools | undefined {
@@ -36,8 +36,4 @@ export const GSConnectBoard = {
   height: 435,
   tools: Object.values(Tools),
   colors: Object.values(Colors),
-};
-
-export const GSConnectBoardConfig = {
-  //
 };
